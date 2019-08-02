@@ -1,0 +1,66 @@
+﻿Build started 02/08/2019 19.07.09.
+     1>Project "C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\TR_dosen\TR_dosen.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\TR_dosen.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         d:\Visual Studio\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt TR_2D.cpp
+         TR_2D.cpp
+       Link:
+         d:\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.exe" /NOLOGO Box2D.lib glew32.lib glew32s.lib glut32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\TR_dosen.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.lib" /MACHINE:X86 Debug\TR_2D.obj
+         LINK : C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.exe not found or not built by the last incremental link; performing full link
+     1>Box2D.lib(b2BroadPhase.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2BroadPhase.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollideCircle.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2CollideCircle.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollideEdge.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2CollideEdge.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CollidePolygon.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2CollidePolygon.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Collision.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Collision.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Distance.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Distance.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2DynamicTree.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2DynamicTree.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2TimeOfImpact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2TimeOfImpact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainShape.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2ChainShape.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CircleShape.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2CircleShape.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeShape.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2EdgeShape.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonShape.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2PolygonShape.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2BlockAllocator.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2BlockAllocator.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Draw.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Draw.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Math.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Math.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Settings.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Settings.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2StackAllocator.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2StackAllocator.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Timer.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Timer.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Body.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Body.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ContactManager.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2ContactManager.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Fixture.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Fixture.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Island.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Island.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2World.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2World.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WorldCallbacks.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2WorldCallbacks.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainAndCircleContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2ChainAndCircleContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ChainAndPolygonContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2ChainAndPolygonContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2CircleContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2CircleContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Contact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Contact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2ContactSolver.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2ContactSolver.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeAndCircleContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2EdgeAndCircleContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2EdgeAndPolygonContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2EdgeAndPolygonContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonAndCircleContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2PolygonAndCircleContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PolygonContact.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2PolygonContact.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2DistanceJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2DistanceJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2FrictionJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2FrictionJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2GearJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2GearJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2Joint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2Joint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2MotorJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2MotorJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2MouseJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2MouseJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PrismaticJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2PrismaticJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2PulleyJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2PulleyJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2RevoluteJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2RevoluteJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2RopeJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2RopeJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WeldJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2WeldJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+     1>Box2D.lib(b2WheelJoint.obj) : warning LNK4099: PDB 'box2d.pdb' was not found with 'Box2D.lib(b2WheelJoint.obj)' or at 'C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\box2d.pdb'; linking object as if no debug info
+         TR_dosen.vcxproj -> C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\Debug\TR_dosen.exe;#1" /manifest Debug\TR_dosen.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\TR_dosen.unsuccessfulbuild".
+         Touching "Debug\TR_dosen.lastbuildstate".
+     1>Done Building Project "C:\Users\USER\Documents\Visual Studio 2010\Projects\TR_dosen\TR_dosen\TR_dosen.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.63
