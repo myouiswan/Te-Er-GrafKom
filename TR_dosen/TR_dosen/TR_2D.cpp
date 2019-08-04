@@ -102,6 +102,12 @@ void display(){
 	glutSwapBuffers();
 }
 
+void loop (int c){
+	world->Step(0.05, 8, 3);
+	glutPostRedisplay();
+	glutTimerFunc(1, loop, 0);
+}
+
 void init(void){
 	glClearColor(1.0, 1.0, 1.0, 1.0);
     glMatrixMode(GL_PROJECTION);
@@ -109,6 +115,8 @@ void init(void){
 	glMatrixMode(GL_MODELVIEW);
 	glClearColor(1,1,1,1);
 	world = new b2World(b2Vec2(0, -9.81));
+	glColor3f(1.0, 1.0, 1.0);
+	addRect(400, -5, 800, 10, false);
 }
 
 void keyboardFunc(unsigned char key, int x, int y){
@@ -122,6 +130,13 @@ void keyboardFunc(unsigned char key, int x, int y){
 	case 'S':
 	case 's':
 		addCircle(x, y, size, true);
+		break;
+	case 'G':
+	case 'g':
+		if(gravity){
+			glutTimerFunc(1, loop, 0);
+			gravity = false;
+		}
 		break;
 	}
 	glutPostRedisplay();
